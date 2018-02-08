@@ -1,0 +1,13 @@
+<h1>Chicago Landmarks</h1>
+
+<%#= Landmark.all.inspect %>
+
+<ul>
+  <% for landmark in Landmark.all %>
+    <li>
+      <%= landmark.name %>
+      <br>
+      <img src="<%= landmark.photo_url %>">
+    </li>
+  <% end %>
+</ul>

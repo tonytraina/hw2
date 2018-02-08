@@ -1,3 +1,9 @@
+Landmark
+  name: text
+  photo_url: text
+  address: text
+
+
 # Example:
 #
 # Book
